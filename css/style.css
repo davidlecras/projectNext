@@ -1,8 +1,13 @@
 .addMargin{
-margin-top: 8em;
+margin-top: 12em;
 }
 
 footer{
     background-color: #f39af5;
 }
 
+@media (max-width: 1000px){
+.breadcrumb{
+    display: none;
+}
+}
